@@ -1,0 +1,101 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff5f7;
+    color: #333;
+}
+
+.container {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 5px 15px rgba(255, 105, 180, 0.1);
+}
+
+h1 {
+    color: #ff4757;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-section {
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #ff4757;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+button {
+    background: #ff4757;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+button:hover {
+    background: #ff6b81;
+    transform: translateY(-2px);
+}
+
+#copiarBtn {
+    background: #2ed573;
+    display: none;
+    margin-top: 15px;
+}
+
+#copiarBtn:hover {
+    background: #7bed9f;
+}
+
+.preview {
+    margin-top: 20px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    white-space: pre-wrap;
+    border: 1px dashed #ff4757;
+    font-family: 'Courier New', monospace;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.loading {
+    color: #ff4757;
+    text-align: center;
+    font-style: italic;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+}
