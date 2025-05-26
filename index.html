@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Ofertas BABADOO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Gerador de Ofertas BABADOO</h1>
+        
+        <div class="input-section">
+            <label for="templateSelect">Modelo de Template:</label>
+            <select id="templateSelect">
+                <option value="original">Template Original BABADOO</option>
+                <option value="compacto">Template Compacto (3 palavras)</option>
+            </select>
+            
+            <label for="textoOriginal">Cole seu texto de oferta:</label>
+            <textarea id="textoOriginal" placeholder="Exemplo: 
+🚨 PROMOÇÃO! > Bota Feminina Couro 
+✔️ Antiderrapante ✔️ Confortável 
+de: ~R$ 299,90~ por R$ 149,90 
+👉 https://s.shopee.com.br/xyz"></textarea>
+            
+            <button id="gerarBtn">GERAR OFERTA</button>
+        </div>
+        
+        <div class="preview" id="resultado">
+            Sua oferta formatada aparecerá aqui...
+        </div>
+        
+        <button id="copiarBtn">📋 COPIAR OFERTA</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
